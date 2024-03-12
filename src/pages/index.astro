@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Page d'acceuil";
 ---
 
 <html lang="fr">
@@ -18,13 +18,13 @@
       name="generator"
       content={Astro.generator}
     />
-    <title>My blog with Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href="/">Home</a>
     <a href="/about/">À propos</a>
     <a href="/blog/">Blog</a>
 
-    <h1>Mon blog</h1>
+    <h1>{pageTitle}</h1>
   </body>
 </html>
